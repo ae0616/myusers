@@ -1,6 +1,6 @@
 #
 # Cookbook:: myusers
-# Recipe:: default
+# Recipe:: create_groups
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 

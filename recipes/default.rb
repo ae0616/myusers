@@ -4,7 +4,7 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-include_recipe 'myusers::creaet_groups'
+include_recipe 'myusers::create_groups'
 
 search("users", "platform:#{node['platform']}").each do |user_data|
 	if node['platform'] == 'windows'
